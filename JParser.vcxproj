@@ -140,6 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JParser.cpp" />
+    <ClCompile Include="jsonobject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jsonarray.h" />
+    <ClInclude Include="jsonobject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,5 +18,16 @@
     <ClCompile Include="JParser.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="jsonobject.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jsonobject.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonarray.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
